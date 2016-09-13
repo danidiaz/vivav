@@ -1,12 +1,13 @@
 dist
-dist-*
 cabal-dev
+Session.vim
 *.o
 *.hi
 *.chi
 *.chs.h
 *.dyn_o
 *.dyn_hi
+.virtualenv
 .hpc
 .hsenv
 .cabal-sandbox/
@@ -14,6 +15,3 @@ cabal.sandbox.config
 *.prof
 *.aux
 *.hp
-*.eventlog
-.stack-work/
-cabal.project.local
