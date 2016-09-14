@@ -1,5 +1,6 @@
 " http://learnvimscriptthehardway.stevelosh.com/
 " http://ricostacruz.com/cheatsheets/vimscript.html
+" http://www.ibm.com/developerworks/library/l-vim-script-1/
 
 function! GlobalCreateMyChannel()
     let g:mychannel = CreateMyChannel()
