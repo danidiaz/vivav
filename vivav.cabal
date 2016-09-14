@@ -28,10 +28,14 @@ executable vivav
                        lens                 >= 4.14 && < 4.15,
                        megaparsec           >= 5.0.1 && < 5.1,
                        pipes                >= 4.1.9 && < 4.2,
+                       -- http://hackage.haskell.org/package/pipes-aeson-0.4.1.6/docs/Pipes-Aeson.html 
                        pipes-aeson          >= 0.4.1 && < 0.5,
+                       -- http://hackage.haskell.org/package/network-2.6.3.1/docs/Network.html
                        network              >= 2.6.3 && < 2.7,
+                       -- http://hackage.haskell.org/package/optparse-applicative 
                        optparse-applicative >= 0.13.0 && < 0.14,
-                       pipes-text           >= 0.0.2 && < 0.1
+                       pipes-text           >= 0.0.2 && < 0.1,
+                       pipes-bytestring     >= 2.1.3 && < 2.2
 
                 
   hs-source-dirs:      src
