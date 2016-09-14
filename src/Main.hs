@@ -15,7 +15,7 @@ main :: IO ()
 main = do
     let portID = PortNumber 7777
     socket <- listenOn portID
-    putStrLn "Listening..."
+    putStrLn $ "Listening on" ++ show portID
     forever $ do (handle,_,_) <- accept socket
                  putStrLn "Connection accepted."
                  hSetBuffering handle NoBuffering
